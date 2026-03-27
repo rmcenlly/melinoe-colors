@@ -1,0 +1,25 @@
+{
+  "name": "melinoe-colors",
+  "displayName": "Melinoe Colors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmcenlly/melinoe-colors.git"
+  },
+  "description": "A dark color theme revolving around green rather than blue",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Melinoe",
+        "uiTheme": "vs-dark",
+        "path": "./themes/melinoe-color-theme.json"
+      }
+    ]
+  }
+}
